@@ -5,7 +5,7 @@ namespace yosoyfunes\ElasticsearchPHP;
 //Cargamos las librerias
 require '01-connect.php';
 
-//Cargamos el array con los parametros del index (bd) a crear
+//Cargamos el array con los parametros del index (db) a crear
 $params = [
     'index' => 'empresa',
     'body' => [

@@ -5,9 +5,9 @@ namespace yosoyfunes\ElasticsearchPHP;
 //Cargamos las librerias
 require '01-connect.php';
 
-//Cargamos el array con los parametros del index (bd) a borrar
+//Cargamos el array con los parametros del index (db) a borrar
 $deleteParams = [
- //Nombre del index (bd)
+ //Nombre del index (db)
  'index' => 'empresa'
 ];
 

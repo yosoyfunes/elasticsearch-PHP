@@ -7,7 +7,7 @@ require '01-connect.php';
 
 //Cargamos el array con los parametros de la consulta
 $params = [
-  //Nombre del index (bd) a llamar
+  //Nombre del index (db) a llamar
   'index' => 'customer',
   //Nombre del type (tabla)
   'type' => '_doc',
@@ -16,7 +16,7 @@ $params = [
 ];
 
 /*
-La funcion $client->get llamamos los datos del index (bd)
+La funcion $client->get llamamos los datos del index (db)
 */
 
 //Pasamos los parametros a la funcion get de elasticseach
