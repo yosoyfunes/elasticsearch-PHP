@@ -128,6 +128,14 @@ Vamos a descargar una por composer y mostrar algúnos ejemplos.
 ```
 php ./src/01-connect.php
 ```
+
+### Agregamos un registro
+
+```
+php ./src/02-create-row.php
+```
+
+
 y tendremos una respuesta de este estilo:
 
 ```
@@ -150,7 +158,7 @@ Array
 )
 ```
 
-### 
+
  
 
 
