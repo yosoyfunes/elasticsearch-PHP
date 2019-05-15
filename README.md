@@ -21,13 +21,20 @@
     }
 ```
 
-### Instalar Elasticsearch con Docker
+### Crear un NODO de  Elasticsearch con Docker
 
 ```
 docker run -d -p 9200:9200 -p 9300:9300 --name=elasticsearch \
   -v /Users/$(whoami)/.elasticsearch:/usr/share/elasticsearch/data \
   -Etransport.host=0.0.0.0 -Ediscovery.zen.minimum_master_nodes=1 summasolutions/elasticsearch:6.4.2
 ```
+
+### También podemos usar docker-compose (incluido en este proyecto)
+
+```
+docker-compose up -d
+```
+
 
 
 ### Hola Mundo
