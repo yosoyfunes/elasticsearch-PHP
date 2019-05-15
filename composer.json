@@ -1,0 +1,13 @@
+{
+    "name": "yosoyfunes/elasticsearch-ejemplos",
+    "description": "Ejemplos de Elasticsearch con PHP",
+    "require": {
+        "elasticsearch/elasticsearch": "~6.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+          "yosoyfunes\\ElasticsearchPHP\\": "./src"
+        }
+    }
+}
